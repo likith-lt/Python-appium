@@ -1,0 +1,3 @@
+language = "python3"
+run = "sh init/run.sh"
+hidden = ['init']
