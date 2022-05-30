@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "lt-appium-python"
+version = "0.1.0"
+description = ""
+authors = ["MBDEMO <<>>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Appium-Python-Client = "^2.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

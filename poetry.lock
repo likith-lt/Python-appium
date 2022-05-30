@@ -1,0 +1,32 @@
+[[package]]
+name = "appium-python-client"
+version = "2.2.0"
+description = "Python client for Appium"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+selenium = ">=4.1,<5.0"
+
+[[package]]
+name = "selenium"
+version = "4.1.3"
+description = ""
+category = "main"
+optional = false
+python-versions = "~=3.7"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "30d025dbf0bfa33942465cfb964c3fa9f45f01852b1b94ceb801337b0208d7ee"
+
+[metadata.files]
+appium-python-client = [
+    {file = "Appium-Python-Client-2.2.0.tar.gz", hash = "sha256:bc823213d7dcce58f03bc16d2db2d77b9cbf772a59d6f8f94cc09a70fac4468e"},
+]
+
+selenium = [
+    {file = "selenium-4.1.3-py3-none-any.whl", hash = "sha256:14d28a628c831c105d38305c881c9c7847199bfd728ec84240c5e86fa1c9bd5a"},
+]
